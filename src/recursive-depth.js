@@ -18,9 +18,8 @@ class DepthCalculator {
     // remove line with error and write your code here
     let count = 1;
     let currentCount = count;
-    console.dir({length: arr.length, arr})
+    // console.dir({length: arr.length, arr})
     if (!arr.length) return 1;
-    // let flatArr = arr.flat(1);
 
     function countArrayDepth(a) {
       for (let i = 0; i <= a.length - 1; i++) {
